@@ -1,0 +1,28 @@
+.tippy-box[data-theme~="tippy-goraymond"] {
+    background-color: #f5a623;
+    color: var(--bs-card-text-color);
+    font-weight: 600;
+    font-size: 1rem;
+}
+.tippy-box[data-theme~="tippy-goraymond"][data-placement^="top"]
+    > .tippy-arrow:before {
+    border-top-color: #f5a623;
+}
+.tippy-box[data-theme~="tippy-goraymond"][data-placement^="bottom"]
+    > .tippy-arrow:before {
+    border-bottom-color: #f5a623;
+}
+.tippy-box[data-theme~="tippy-goraymond"][data-placement^="left"]
+    > .tippy-arrow:before {
+    border-left-color: #f5a623;
+}
+.tippy-box[data-theme~="tippy-goraymond"][data-placement^="right"]
+    > .tippy-arrow:before {
+    border-right-color: #f5a623;
+}
+.tippy-box[data-theme~="tippy-goraymond"] > .tippy-backdrop {
+    background-color: #f5a623;
+}
+.tippy-box[data-theme~="tippy-goraymond"] > .tippy-svg-arrow {
+    fill: #f5a623;
+}
